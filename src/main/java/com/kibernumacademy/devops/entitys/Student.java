@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+//@Entity
 @Table(name = "students")
 public class Student  {
 
