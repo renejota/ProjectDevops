@@ -1,23 +1,23 @@
 package com.kibernumacademy.devops.entitys;
 
-import jakarta.persistence*;
+//import jakarta.persistence.*;
 
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 //@Entity
-@Table(name = "students")
+//@Table(name = "students")
 public class Student  {
 
-  @Id
+//  @Id
 
   private Long id;
-  @Column(name="name", nullable = false, length = 50)
+//  @Column(name="name", nullable = false, length = 50)
   private String name;
-  @Column(name="lastname", nullable = false, length = 50)
+//  @Column(name="lastname", nullable = false, length = 50)
   private String lastname;
-  @Column(name="email", nullable = false, length = 50, unique = true)
+//  @Column(name="email", nullable = false, length = 50, unique = true)
   private String email;
 
   public Student() {
